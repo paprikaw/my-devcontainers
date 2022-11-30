@@ -10,3 +10,4 @@ RUN apt-get update
 # Getting Y86 simulator to work
 RUN apt-get install -y libfl-dev
 RUN apt-get install -y tk-dev tcl-dev
+RUN apt-get install -y bison
