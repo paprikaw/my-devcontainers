@@ -2,12 +2,10 @@
 
     这个仓库包含了我所有vscode devcontainer的配置文件和docker file
 
-* CMU: CMU 15-213课程部分lab和examples所使用的
+## Directories
+* CMU: CMU 15-213课程除了archlab之外的所有lab使用的dev container
+* Y86: CMU 15-213课程archlab使用的dev container
+* NJU-OS: CMU 15-213课程archlab使用的dev container
 
-# 初始化devcontainer
-在需要初始化的目录下运行以下指令运行
-``` sh
-wget httplinktoscript && ./setup
-```
-
-在需要构建devcontainer的目录下运行对应的devcontainer脚本
+## 初始化devcontainer
+在一个已经初始化git仓库的目录下，使用本仓库中对应的devcontainer子目录中readme的一行shell指令进行初始化
