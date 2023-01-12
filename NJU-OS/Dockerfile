@@ -13,9 +13,9 @@ RUN apt-get install -y build-essential
 RUN apt-get install -y python3 
 RUN apt-get install -y libreadline-dev 
 RUN apt-get install -y llvm-11
+RUN apt-get install -y autojump 
 RUN apt-get update
 RUN apt-get install -y qemu-system
 RUN apt-get update
 RUN apt-get install -y libsdl2-dev 
-RUN apt-get install -y autojump 
 ENV ANTIGEN_PATH="/home/vscode"
