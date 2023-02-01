@@ -21,7 +21,7 @@
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "export DISPLAY=host.docker.internal:0",
-	"postCreateCommand": "wget https://raw.githubusercontent.com/paprikaw/rc_files/main/script/install_zsh.sh && bash install_zsh.sh",
+	"postCreateCommand": "bash /workspaces/NJU_OS/my-devcontainers/NJU-OS/boot.sh",
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
 	"features": {},
