@@ -18,5 +18,3 @@ RUN apt-get update
 RUN apt-get install -y qemu-system
 RUN apt-get update
 RUN apt-get install -y libsdl2-dev 
-ENV ANTIGEN_PATH="/home/vscode"
-ENV AM_HOME="/workspaces/NJU_OS/abstract-machine"
