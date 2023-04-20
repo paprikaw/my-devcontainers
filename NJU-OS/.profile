@@ -1,1 +1,1 @@
-export "PATH=$PATH:/workspaces/NJU_OS/script"
+export "PATH=$PATH:${WORKBENCH_PATH}/script"

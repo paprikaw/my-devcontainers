@@ -2,7 +2,7 @@
 
 # add scripts to path
 touch ~/.profile
-cat /workspaces/NJU_OS/my-devcontainers/NJU-OS/.profile >> ~/.profile
+cat ${WORKBENCH_PATH}/my-devcontainers/NJU-OS/.profile >> ~/.profile
 
 # Install powerline for zsh
 wget https://raw.githubusercontent.com/paprikaw/rc_files/main/script/install_zsh.sh 
