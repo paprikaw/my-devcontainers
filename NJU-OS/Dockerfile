@@ -18,3 +18,4 @@ RUN apt-get update
 RUN apt-get install -y qemu-system
 RUN apt-get update
 RUN apt-get install -y libsdl2-dev 
+RUN apt-get install -y bear 
