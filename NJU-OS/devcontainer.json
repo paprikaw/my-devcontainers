@@ -31,6 +31,7 @@
 		"seccomp=unconfined",
 		"--privileged"
 	],
+	"mounts": [{ "source": "/Users/ericwhite/.ssh", "target": "/vscode/.ssh", "type": "bind" }],
 	"containerEnv": {
 		"DISPLAY": "host.docker.internal:0",
 		"AM_HOME": "/workspaces/os-workbench/abstract-machine",
